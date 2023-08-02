@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-factorial
+-----------------factorial
 int main() {
   cout<<"Prueba del GOTO\n";
   cout << "Ingrese el numero:";
@@ -15,9 +15,9 @@ int main() {
     if(n>1) goto ciclo;
   cout<<res;
 }
-fibonacci
+
+-----------------fibonacci
 int main() {
-  
   cout<<"Prueba del GOTO\n";
   cout << "Ingrese el numero:";
   int n; 
@@ -34,9 +34,9 @@ int main() {
     con++;
     if(con!=n) goto ciclo;
 }
-fibonaci inversa
+
+-----------------fibonaci inversa
 int main() {
-  
   cout<<"Prueba del GOTO\n";
   cout << "Ingrese el numero:";
   int n; 
@@ -54,12 +54,11 @@ int main() {
     con++;
     if(con!=n) goto ciclo1;
   ciclo2:
-    
     con--;
     cout << v[con]<<" ";
     if(con!=0) goto ciclo2;
 }
-
+-----------------Suma de fibonaci y su inversa
 int main() {
   
   cout<<"Prueba del GOTO\n";
